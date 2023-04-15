@@ -21,14 +21,17 @@ This project is hosted on Render.com and can be found on https://holy-scriptura-
 
 
 ## Project Setup
-
+To run this application please 
+1. Run npm install in your terminal
+2. In a new terminal, run npm start. This will run your React App on port 3000 or if port 3000 is occupied, the terminal will prompt and redirect to another free port number. 
+3. Refer to the backend repository instructions to serve this application the backend json data
 
 
 
 
 
 ## Author
-- [Owen Ayora]
+Owen Ayora
 
 
 ## License
