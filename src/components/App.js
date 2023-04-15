@@ -14,7 +14,7 @@ function App() {
   const [selectedBookTitle, setSelectedBookTitle] = useState([]);
 let d
   useEffect(() => {
-    fetch("http://localhost:9292/books")
+    fetch("https://holy-scriptura-api.onrender.com/books")
       .then((res) => res.json())
       .then((data) => setBooks(data));
   }, []); 
@@ -23,7 +23,7 @@ let d
   function handleSelectedBook(theId) {
     //useEffect(() => {
     
-      fetch(`http://localhost:9292/books/${theId}`)
+      fetch(`https://holy-scriptura-api.onrender.com/books/${theId}`)
         .then((res) => res.json())
         .then((data2) => {
           const chapters = data2.chapters.map(allChapters => allChapters.chapter_text)//[0]//.chapter_text
