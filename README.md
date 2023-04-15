@@ -17,7 +17,7 @@ The Holy Bible digitally repackaged.
 
 
 ## Live Link
-Coming soon.
+This project is hosted on Render.com and can be found on https://holy-scriptura-app.onrender.com/
 
 
 ## Project Setup
